@@ -1,0 +1,233 @@
+*{
+	font-family: 'Merriweather', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+html{
+  /* a cada 1rem será considerado 10px*/
+	font-size: 62.5%;
+}
+html,
+body {
+	height: 100vh;
+}
+body{
+	font-size: 1.6rem;
+}
+
+/*** MENU ***/
+nav{
+	background-color: #161819;
+	position: fixed;
+	height: 6rem;
+	width: 100vw;
+}
+.menu{
+	margin-top: 2rem;
+}
+.menu.menu-list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline;
+	margin-top: 7rem;
+	width: 20rem;
+}
+nav a{
+	text-decoration: none;
+	color: #b2b2b2;	
+	font-weight: 600;
+	margin: 3rem;
+	font-size: 2rem;
+}
+nav a:hover{
+	color: #ffcf2d;
+}
+
+/*** CABEÇALHO ***/
+header{
+	background-image: url(./images/bg.jpg);
+	background-position: center center; 
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	font-size: 3rem;
+	color: #fff;
+}
+header p{
+	margin-top: 5rem;
+}
+
+/*** HORÁRIO E PROFESSORES ***/
+section.container-instructions{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 80vh;
+}
+.time-section h2{
+	text-align: center;;
+	font-size: 4rem;
+}
+.time-section{
+	width: 40vw;
+	margin-left: 20rem;
+}
+section table{
+	font-size: 3rem;
+	border-spacing: 0;
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+section td{
+	border: 1px solid;
+	padding: 1rem;
+	width: 30rem;
+}
+section th{
+	border: 1px solid;
+}
+.teachers-section{
+	height: 55rem;
+	width: 40vw;
+	margin-left: 12rem;
+}
+.teachers-section h2{
+	width: 30rem;
+	text-align: center;
+	font-size: 4rem;
+}
+.teachers-section p{
+	display: flex;
+	justify-content: space-between;
+	width: 20rem;
+	height: 5rem;
+	margin: 6rem 0;
+	text-align: center;
+	font-size: 4rem;
+}
+.teachers-section img{
+	border: 1px solid;
+	border-radius: 100%;
+	width: 6rem;
+	height: 6rem;
+}
+#profA{
+	margin-left: 0;
+}
+#profB{
+	margin-left: 5rem;
+}
+#profC{
+	margin-left: 10rem;
+}
+#profD{
+	margin-left: 15rem;
+}
+
+/*** OUTROS ***/
+.cards{
+	height: 60vh;
+	background-color: #212529;
+}
+.cards-options{
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem;
+}
+.content-box{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid;
+	border-radius: 1.5rem;
+	background-color: #ffcf2d;
+	width: 40rem;
+	height: 34rem;
+	margin: 2rem;
+}
+.content-box.price{
+	background-color: #212529;
+	display: flex;
+	border: none;
+	margin: auto;
+	width: 98vw;
+	height: 12rem;
+	font-size: 3rem;
+	font-weight: 600;
+}
+.content-box.price p{
+	text-align: center;
+	color: #fff;
+}
+.content-box.price span{
+	font-size: 2rem;
+}
+.content-box h2{
+	text-align: center;
+	margin: 1rem;
+}
+.content-box p{
+	text-align: center;
+	margin: 2rem;
+	font-size: 2rem;
+}
+
+/*** CONTATOS ***/
+section.contacts-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 14rem;
+	font-size: 2rem;
+}
+.contacts{
+	width: 30rem;
+	margin-left: 12rem;
+}
+.medias{
+	width: 30rem;
+	margin-left: 4rem;
+}
+section.contacts-container a{
+	display: flex;
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+}
+section.contacts-container a:hover{
+	color: #d45a13;
+}
+
+/*** FOOTER ***/
+footer{
+/*fixa a posição do footer no final da página*/	
+	bottom: 0;
+	padding: 1.8rem;
+}
+.attribution{ 
+	text-align: center; 
+	font-size: 2rem;
+}
+.attribution a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 800;
+}
+.attribution a:hover{
+	color: #d45a13;
+}
+
