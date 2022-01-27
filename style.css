@@ -179,24 +179,21 @@ section th{
 }
 .content-box:hover{
 	font-weight: 600;
-	text-decoration: underline;
 }
 
 /*** CONTATOS ***/
 section.contacts-container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	height: 14rem;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 .contacts{
-	width: 30rem;
-	margin-left: 12rem;
+	width: 50rem;
 }
 .medias{
 	width: 30rem;
-	margin-left: 4rem;
 }
 section.contacts-container a{
 	display: flex;
