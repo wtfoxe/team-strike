@@ -114,6 +114,7 @@ section th{
 .teachers-section p{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 20rem;
 	height: 5rem;
 	margin: 6rem 0;
@@ -121,10 +122,9 @@ section th{
 	font-size: 4rem;
 }
 .teachers-section img{
-	border: 1px solid;
 	border-radius: 100%;
-	width: 6rem;
-	height: 6rem;
+	width: 8rem;
+	height: 8rem;
 }
 #profA{
 	margin-left: 0;
@@ -140,50 +140,46 @@ section th{
 }
 
 /*** OUTROS ***/
-.cards{
-	height: 60vh;
-	background-color: #212529;
+.container-box{
+	height: 68vh;
+	background-color: #161819;
 }
-.cards-options{
+.box-price{
 	display: flex;
-	justify-content: space-around;
-	margin: 2rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	height: 10rem;
+	margin-bottom: 4rem;
+}
+.box-price p{
+	font-size: 4rem;
+	margin-top: 3rem;
+}
+.box-price span{
+	font-size: 3rem;
+}
+.boxes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: auto;
 }
 .content-box{
 	display: flex;
-	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffbd10;
 	border: 1px solid;
-	border-radius: 1.5rem;
-	background-color: #ffcf2d;
-	width: 40rem;
-	height: 34rem;
-	margin: 2rem;
+	height: 42rem;
+
+	color: #000;
+	text-decoration:none;
+	font-size: 4rem;
 }
-.content-box.price{
-	background-color: #212529;
-	display: flex;
-	border: none;
-	margin: auto;
-	width: 98vw;
-	height: 12rem;
-	font-size: 3rem;
+.content-box:hover{
 	font-weight: 600;
-}
-.content-box.price p{
-	text-align: center;
-	color: #fff;
-}
-.content-box.price span{
-	font-size: 2rem;
-}
-.content-box h2{
-	text-align: center;
-	margin: 1rem;
-}
-.content-box p{
-	text-align: center;
-	margin: 2rem;
-	font-size: 2rem;
+	text-decoration: underline;
 }
 
 /*** CONTATOS ***/
