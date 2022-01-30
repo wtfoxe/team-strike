@@ -1,0 +1,112 @@
+*{
+	font-family: 'Merriweather', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+html{
+  /* a cada 1rem será considerado 10px*/
+	font-size: 62.5%;
+}
+html,
+body {
+	height: 100vh;
+}
+body{
+	font-size: 1.6rem;
+}
+
+/*** MENU ***/
+nav{
+	background-color: #161819;
+	position: fixed;
+	height: 6rem;
+	width: 100vw;
+}
+.menu{
+	margin-top: 2rem;
+}
+.menu.menu-list{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline;
+	margin-top: 7rem;
+	width: 20rem;
+}
+nav a{
+	text-decoration: none;
+	color: #b2b2b2;	
+	font-weight: 600;
+	margin: 3rem;
+	font-size: 2rem;
+}
+nav a:hover{
+	color: #ffcf2d;
+}
+
+/***CONTEUDO***/
+section{
+	padding-top: 6rem; 
+}
+.page-content{
+	height: 100%;
+	margin: 5rem 20rem;
+}
+.page-content h2{
+	text-align: center;
+}
+.page-content p{
+	font-size: 2.2rem;
+}
+ul{
+	text-align: center;
+	list-style: none;
+}
+img{
+	margin: auto;
+	width: 60vw;
+	height: 50vh;
+}
+.image{
+	text-align: center;
+}
+.event{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 92vh;
+	font-size: 5rem;
+}
+.event img{
+	width: 800px;
+	height: 600px;
+}
+
+/*** FOOTER ***/
+footer{
+/*fixa a posição do footer no final da página*/	
+	bottom: 0;
+	padding: 1.8rem;
+}
+.attribution{ 
+	text-align: center; 
+	font-size: 2rem;
+}
+.attribution a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 800;
+}
+.attribution a:hover{
+	color: #d45a13;
+}
+
