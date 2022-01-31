@@ -86,6 +86,10 @@ img{
 	height: 92vh;
 	font-size: 5rem;
 }
+.event img{
+	width: 800px;
+	height: 600px;
+}
 
 /*** FOOTER ***/
 footer{
