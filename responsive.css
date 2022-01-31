@@ -1,0 +1,29 @@
+@media (max-width: 1440px){
+	nav a{
+		font-size: 3rem;
+	}
+	section.container-instructions{
+		height: 700px;
+	}
+	section.container-box{
+		height: 500px;
+	}
+	section.container-box a{
+		height: 300px;
+	}
+}
+
+@media(max-width: 1025px){
+	html{
+		font-size: 60%;
+	}
+	.container-instructions .time-section{
+		margin-left: 100px;
+	}
+	.container-instructions .teachers-section{
+		margin-left: 50px;
+	}
+	a.content-box {
+		text-align: center;
+	}
+}
