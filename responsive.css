@@ -1,9 +1,9 @@
 @media (max-width: 1440px){
 	nav a{
-		font-size: 3rem;
+		font-size: 2.4rem;
 	}
 	section.container-instructions{
-		height: 700px;
+		height: 740px;
 	}
 	section.container-box{
 		height: 500px;
@@ -35,77 +35,12 @@
 }
 
 @media (max-width: 426px){
-	html{font-size: 52%;}
 	header{
 		width: 560px;
 	}
 	nav{
-		position: absolute;
-		width: 560px;
-		height: 80px;
-	}
-	.menu{
 		display: none;
-		margin-top: -60rem; 
 	}
-	.menu-toggle{
-		width: 40px;
-		height: 40px;
-		margin: 26px 0 5px 86%;
-	}
-	.one,
-	.two,
-	.three{
-		background-color: #fff;
-		height: 6px;
-		width: 100%;
-		margin: 8px auto;
-	}
-	.menu-section.on {
-        position: absolute;
-        top:0;
-        left:0;
-        
-        width: 560px;
-        height: 200%;
-
-        background-color: #161819;
-        
-        z-index: 10;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .menu-section.on .menu {
-        display: block;
-    }
-    .menu-section.on .menu ul {
-        text-align: center;
-        display: block;
-    }
-    .menu-section.on .menu ul a{
-        transition-duration: 0.5s;
-        font-size: 3rem;
-        line-height: 4rem;
-        display: block; 
-        font-size: 30px;
-
-    }
-    .menu-section.on .menu-toggle {
-        position: absolute;
-        right: 52px;
-        top: 0;
-    }
-    .menu-section.on .menu-toggle .one {
-        transform: rotate(45deg) translate(9px, 7px);
-    }
-    .menu-section.on .menu-toggle .two {
-        opacity: 0;
-    }
-    .menu-section.on .menu-toggle .three {
-        transform: rotate(-45deg) translate(12px, -10px);
-    }    
 	section{
 		width: 560px;
 	}
@@ -133,11 +68,20 @@
 	.box-price{
 		height: 110px;
 	}
+	section.contacts-container{
+		font-size: 2.3rem;
+	}
+	.contacts, .medias{
+		width: auto;
+	}
+	hr, footer{
+		width: 560px;
+	}
 }
 
 @media (max-width: 376px){
 	html{font-size: 52%;}
-	header{
+	header, hr, footer{
 		width: 650px;
 	}
 	nav{
@@ -165,12 +109,15 @@
 		flex-direction: column;
 		align-items: center;
 		width: 500px;
-		margin: 50px 50px;
+		margin: 30px 50px;
 	}
 	#profA,
 	#profB,
 	#profC,
 	#profD{
 		margin: 20px auto;
+	}
+	.contacts-container{
+		font-size: 2.5rem;
 	}
 }
