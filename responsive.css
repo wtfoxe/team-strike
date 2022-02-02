@@ -1,6 +1,6 @@
 @media (max-width: 1440px){
 	nav a{
-		font-size: 2.4rem;
+		font-size: 24px;
 	}
 	section.container-instructions{
 		height: 740px;
@@ -119,5 +119,14 @@
 	}
 	.contacts-container{
 		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 320px){
+	html{font-size: 52%;}
+	body,
+	section
+	{
+		width: 650px;
 	}
 }
